@@ -116,7 +116,7 @@ function DrawState:enter()
     effect = moonshine(moonshine.effects.scanlines)
     .chain(moonshine.effects.crt)
     .chain(moonshine.effects.glow)
-    effect.scanlines.opacity=0.6
+    effect.scanlines.opacity = 0.6
     effect.glow.min_luma = 0.2
 
     local pxfont = love.graphics.newFont("assets/fonts/compaqthin.ttf", 16)
